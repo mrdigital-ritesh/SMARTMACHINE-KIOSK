@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Paytm Clone using html css and Bootstrap">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+  <title>MADE BY RITESH BAGDI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  
+  
+</head>
+
+<body>
+
+
+    
+  <nav class="navbar navbar-expand-lg  navcolor" style="box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);">
+    <div class="container" style="margin-left: 70px;">
+        <a class="navbar-brand" href="#">
+            <img src="https://smartmachine.ro/wp-content/uploads/2016/01/Smart-Machine-logo.png" width="180px"
+                height="55px" alt="" style="margin-right: 15px;" class="headerimg">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+            <h2 class="navbar-text fw-bold" style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 15px; margin-top: 10px;">ALL IN ONE KIOSK</h2>
+          </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">CASH WITHDRAWAL</a>
+                </li><li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=""></a>
+                </li>
+                </li><li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">UPI TRANSACTIONS</a>
+                </li><li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=""></a>
+                    
+                </li><li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="">BILLS</a>
+                </li><li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=""></a>
+                </li><li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="">SHOPPING</a>
+               
+                    
+                </li>
+               
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!-- Add Available Balance Option -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-end mt-3">
+            <div class="d-flex align-items-center">
+                <span class="me-2">
+                    <i class="fas fa-money-bill"></i> <!-- Replace this with your preferred icon class -->
+                </span>
+                <span class="fw-bold">Available Balance:</span>
+                <span class="ms-2">₹10,000</span> <!-- Replace with the actual available balance -->
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- recharge and Pay Bills -->
+
+
+  <section class="recharge_paybill margin-left-0">
+    <div class="container-fluid pb-">
+      <div class="pt-5 pb-5">
+      </div>
+      
+    
+    </div>
+    <section class="cash_withdrawal_option">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h2 class="fw-bold text-white">Cash Withdrawal</h2>
+                    <p>Select an amount to withdraw</p>
+    
+                    <!-- Matrix Grid Buttons -->
+                   <div class="matrix-buttons">
+                        <div class="left-buttons">
+                            <button type="button"id="myButton6"  class="btn btn-primary btn-lg" data-amount="100">  <i class="fas fa-money-bill"></i>    ₹100</button>
+                            <button type="button" id="myButton1" class="btn btn-primary btn-lg" data-amount="200">  <i class="fas fa-money-bill"></i>    ₹200</button>
+                            <button type="button" id="myButton2" class="btn btn-primary btn-lg" data-amount="500">  <i class="fas fa-money-bill"></i>    ₹500</button>
+                        </div>
+                        <div class="right-buttons">
+                            <button type="button" id="myButton3" class="btn btn-primary btn-lg" data-amount="1000">  <i class="fas fa-money-bill"></i>    ₹1000</button>
+                            <button type="button" id="myButton4" class="btn btn-primary btn-lg" data-amount="2000">  <i class="fas fa-money-bill"></i>    ₹2000</button>
+                            <button type="button" id="myButton5"class="btn btn-primary btn-lg" data-amount="5000">  <i class="fas fa-money-bill"></i>    ₹5000</button>
+                        </div>
+                    </div>
+                </a>
+                  
+</section>
+
+ 
+</div> 
+</body>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<div class="display-15 text-center bg-light  text-dark font-family shadow">
+  <marquee>Experience the future of secure and hassle-free cash withdrawal at our Smart Kiosk. Our advanced system allows you to withdraw cash effortlessly, offering two secure options: QR code and fingerprint authentication. Say goodbye to traditional PINs and cards; simply use your QR code or fingerprint for quick and convenient access to your funds. It's the ultimate blend of security and ease, all in one place."
+FOUNDERS- RITESH BAGDI - ABHISHEK SHARMA.
+       MADE WITH ❤️...  </div>
+  </marquee>
+
+
+<script src="voice.js"></script>
+
+</html>
+    
+
+  
